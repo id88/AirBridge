@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+sender/.venv/
+sender/__pycache__/
+receiver/dist/
+receiver/dist-single/
+*.pyc

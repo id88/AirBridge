@@ -1,0 +1,25 @@
+{
+  "name": "airbridge-receiver",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "build:single": "tsc --noEmit && vite build --config vite.single.config.ts",
+    "build:all": "npm run build && npm run build:single",
+    "preview": "vite preview --host",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "zxing-wasm": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vite-plugin-singlefile": "^2.0.3",
+    "vitest": "^2.1.8"
+  }
+}
