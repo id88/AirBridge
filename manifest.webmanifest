@@ -1,0 +1,19 @@
+{
+  "name": "AirBridge 离线文件接收端",
+  "short_name": "AirBridge",
+  "description": "离线单向光学二维码文件传输接收端（支持单码、2×2多码网格、自描述XOR喷泉码）",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1120",
+  "theme_color": "#0b1120",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
